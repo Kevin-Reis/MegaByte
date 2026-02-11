@@ -1,0 +1,70 @@
+body {
+
+    background-image: url("../images/PapelParede/PapelParede.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.navbar {
+    background-color: #1e90ff;
+}
+
+.offcanvas {
+    background-color: #1e90ff;
+}
+
+.bottomProducts {
+    height: 35rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+
+    .titlesHome {
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 1rem;
+    }
+
+    .productHome {
+        padding: 1rem;
+        height: 35rem;
+        width: 35rem;
+    }
+
+    .descriptionHome {
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2rem;
+
+
+    }
+
+    .buttonDiv {
+
+        display: flex;
+        justify-content: center;
+
+        .Button {
+            width: 25rem;
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            padding: 1.2rem;
+            border-radius: 0.5rem;
+            font-size: 1.3rem;
+            transition: transform 0.5s ease-in-out;
+
+        }
+
+        Button:hover {
+            transform: scale(1.05);
+
+
+        }
+    }
+}
