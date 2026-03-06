@@ -12,7 +12,7 @@
 <body>
 
     <div id="Container">
-
+        <!-- 
         <nav class="navbar navbar-dark  fixed-top navbar">
 
             <div class="container-fluid">
@@ -57,61 +57,50 @@
                     </div>
                 </div>
             </div>
-        </nav>
-
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="images/carousel/carousel-PecasPc.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/carousel/carousel-Ps5eXbox.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/carousel/carousel-JogoPlataformas.png" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-        <div class="clearfix">
-            <div class="bottomProducts">
-
-                <img src="images/home/PcGamer-TelaInicial.png" class="col-md-6 float-md-end mb-3 ms-md-3 productHome" alt="...">
-
-                <h1 class="titlesHome">PCs Gamers</h1>
-
-                <p class="descriptionHome">
-                    O PC Gamer é muito mais do que um computador: é liberdade, desempenho e imersão total. É a escolha de quem quer jogar sem limites, com fluidez, qualidade gráfica e resposta rápida em qualquer situação. Na MegaByte, o PC gamer é pensado para entregar a melhor experiência possível, independentemente do seu estilo de jogo.
-
-                    Seja para jogos competitivos, onde cada milésimo de segundo faz diferença, ou para games de mundo aberto, cheios de detalhes e gráficos impressionantes, o PC gamer oferece uma experiência superior. Mais controle, mais personalização e mais conforto para longas horas de gameplay. Aqui, você joga do seu jeito, no seu ritmo e no seu nível.
-
-                    O PC gamer também é evolução. Diferente de outras plataformas, ele cresce junto com você. Hoje é diversão, amanhã pode ser criação de conteúdo, lives, estudos ou trabalho. Tudo em um único lugar, com desempenho consistente e estabilidade para qualquer desafio.
-
-                    Na MegaByte, acreditamos que cada jogador é único. Por isso, oferecemos PCs gamers para todos os perfis: do jogador casual ao gamer mais exigente. Nosso objetivo é garantir que você tenha uma máquina pronta para rodar seus jogos com qualidade, fluidez e confiança, sem dor de cabeça.
-
-                    Mais do que jogar, o PC gamer proporciona imersão total. Gráficos mais realistas, respostas mais rápidas e uma experiência que coloca você dentro do jogo. É sentir cada detalhe, cada movimento e cada vitória com intensidade máxima.
-                </p>
+        </nav> -->
 
 
-                <div class="buttonDiv">
-                    <button class="Button">Veja Ja</button>
+        <div class="Cad-Login">
 
+            <img src="images/home/homem-propaganda.png" class="img-fluid-Principal" alt="...">
+
+            <div class="teste">
+
+                <div class="Infos">
+                    
+                    <div style="background-color: yellow; border-radius: 0.5rem;padding: 1.5rem; margin-bottom: 5rem;">
+                        <h1 style="text-align: center; padding: 1rem;">Bem-Vindo a MegaByte</h1>
+
+                    </div>
+                    <h3 style="text-align: center;">Insira suas  informações</h3>
+                    <p style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Faca seu login e fique por dentro de todas as novidades</p>
+    
+                  
+    
+                    <div class="inputs-Infos">
+                        
+                        <input class="Inputs" type="text" placeholder="Nome">
+                        <input class="Inputs" type="text" placeholder="E-mail">
+                        <input class="Inputs" type="text" placeholder="Telefone">
+                        <input class="Inputs" type="text" placeholder="Senha">
+    
+                        <button class="Button">Entrar</button>
+                      
+                        <a style="color: black; font-size: 1.25rem;" href="#">Ainda Não é cadastrado?</a>
+    
+                    </div>
+    
+    
                 </div>
 
             </div>
 
 
-
-
         </div>
+
+
+
+
 
     </div>
 
