@@ -32,25 +32,25 @@
     height: 50rem;
     width: 40rem;
     background-color: white;
-   
+
 
 }
 
-.inputs-Infos{
-   
+.inputs-Infos {
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
 
-    .Inputs{
+    .Inputs {
         width: 30rem;
         height: 3rem;
-       
+
     }
 
-    .Button{
+    .Button {
         width: 25rem;
         height: 3rem;
         border-radius: 0.5rem;
@@ -64,6 +64,23 @@
 
 button:hover {
     transform: scale(1.05);
-    
-    
+
+
 }
+
+.aboutUs {
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 5rem;
+}
+
+.Catalog {
+    margin: 5rem;
+    gap: 5rem;
+}
+
+.Itens {
+    border-radius: 0.5rem;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
