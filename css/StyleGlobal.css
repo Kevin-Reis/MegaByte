@@ -1,3 +1,18 @@
+*{
+    max-width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+
 .navbar {
     background-color: #1e90ff;
 }
@@ -9,7 +24,6 @@
 .Cad-Login {
     position: relative;
     /*faz com que qualquer elemento filho com position: absolute seja posicionado junto a este elemento. */
-
     width: 100%;
     overflow: hidden;
 }
@@ -75,12 +89,203 @@ button:hover {
 }
 
 .Catalog {
-    margin: 5rem;
-    gap: 5rem;
+   
+    margin: 3rem;
+    gap: 4rem;
 }
 
 .Itens {
     border-radius: 0.5rem;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
 }
 
+.Name-items{
+    text-align: center;
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #1565c0;
+
+}
+
+.footer-main {
+    max-width: 68rem;
+    margin: auto;
+    padding: 36px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    /* max-widh e pra ele ocupar nada mais q 68rem da minha tela e nao ocupar ela inteira, e o margin 0 auto é pra centralizar ele igaulmente dos dois lados, o justify-content: space-between ele pega os itens dentro da div e coloca um em cada extremidade, com o espaco divididp entre eles */
+}
+
+
+/* Brand */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .logo-icon {
+        width: 2.60rem;
+        height: 2.60rem;
+        background: #FFD600;
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #0d47a1;
+    }
+
+    .brand-name {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 0.05rem;
+    }
+
+}
+
+
+
+/* Links */
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.85rem;
+        transition: .2s;
+    }
+
+    a:hover {
+        color: #FFD600;
+    }
+}
+
+
+/* Social */
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+
+    a {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        background: rgba(255, 255, 255, 0.12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 0.8rem;
+        text-decoration: none;
+        transition: all ease-in-out .5s;
+    }
+
+    a:hover {
+       background: #FFD600;
+       transform: translateY(-0.3rem);
+    }
+
+}
+
+
+
+
+
+/* Bottom */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-bottom span {
+    color: #FFD600;
+    font-weight: 600;
+}
+
+@media (max-width: 640px) {
+
+   hr{
+    background-color: black;
+    border: solid 0.1rem ;
+   }
+
+   .Catalog{
+    margin: 1rem;
+    gap: 1.5rem;
+   }
+
+    .Itens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        width: 5rem;
+
+    }
+
+    h6{
+        text-align: center;
+        font-size: 0.65rem;
+    }
+    
+   
+    .Cad-Login{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-fluid-Principal {
+        height: 220px;
+        object-fit: cover;
+
+        /* o object-fit: define uma altura fisica para a imagem e recorta para caber na altura sem distorcer; */
+    }
+
+    .Infos{
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 100%;
+        height: auto;
+        padding: 1.5rem 1rem;
+    }
+
+    
+
+    .footer-main {
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 28px 20px;
+    }
+
+    .footer-links {
+        gap: 14px;
+        flex-direction: column;
+        display: grid;
+      
+    }
+
+    /* flex-direction: column ele em vez de ficar tudo numa linha horizontal, os itens empilham um em cima do outro, e o aling-items: flex-start alinha tudo para a esquerda(em vez de centralizado), e o padding reduz um pouco  espaco interno */
+}

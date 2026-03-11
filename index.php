@@ -8,15 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/StyleGlobal.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    
+
+
 </head>
 
 <body>
 
     <div id="Container">
-        
-        <nav class="navbar navbar-dark  fixed-top navbar">
+
+        <!-- <nav class="navbar navbar-dark  fixed-top navbar">
 
             <div class="container-fluid">
 
@@ -60,12 +60,12 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
 
         <div class="Cad-Login">
 
-            <img src="images/home/homem-propaganda.png" class="img-fluid-Principal" alt="...">
+            <img style="border-bottom-left-radius: 2rem; border-bottom-right-radius: 2rem;" src="images/home/homem-propaganda.png" class="img-fluid-Principal" alt="...">
 
             <div class="teste">
 
@@ -91,6 +91,8 @@
 
                         <a style="color: black; font-size: 1.25rem;" href="#">Ainda Não é cadastrado?</a>
 
+
+
                     </div>
 
 
@@ -101,7 +103,7 @@
 
         </div>
 
-        <div style="padding: 3rem;">
+        <!-- <div style="padding: 3rem;">
 
             <div class="aboutUs">
 
@@ -127,65 +129,69 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
+        
 
+        
+        <hr>
         <div>
-
-            <div class="d-flex justify-content-center">
-
+            
+            <div  class="d-flex justify-content-center">
+                
                 <h2 style=" padding: 0.5rem;  border-radius: 0.5rem; box-shadow: 0;">VEJA NOSSO CATALOGO</h2>
-
+                
             </div>
+            
 
 
             <div class="d-flex justify-content-center flex-wrap Catalog">
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/ps5-Catalog.png" class="rounded" alt="...">
                     <h6>Consoles</h6>
                 </div>
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/PC-catalog.jpg" class="rounded" alt="...">
-                    <h6>Computadores</h6>
+                    <h6 style="text-align: center;">PCs</h6>
                 </div>
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/Ryzen-catalog.jpg" class="rounded" alt="...">
-                    <h6>Processadores</h6>
+                    <h6 style="text-align: center;">Processador</h6>
                 </div>
-                
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/Memoria.webp" class="rounded" alt="...">
                     <h6>Memorias</h6>
                 </div>
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/SSD.jpg" class="rounded" alt="...">
                     <h6>SSds</h6>
                 </div>
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/Fonte-alimentacao.jpg" class="rounded" alt="...">
                     <h6>Fontes</h6>
                 </div>
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/Placa-mae.webp" class="rounded" alt="...">
                     <h6>Placas Maes</h6>
                 </div>
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/Placa-video.jpg" class="rounded" alt="...">
                     <h6>Placas de Video</h6>
                 </div>
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/Gabinete.webp" class="rounded" alt="...">
                     <h6>Gabinetes</h6>
                 </div>
 
-                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000" >
+                <div class="text-center Itens" data-aos="fade-right" data-aos-duration="1000">
                     <img src="images/home/Acessorios.jpg" class="rounded" alt="...">
                     <h6>Acessorios</h6>
                 </div>
@@ -194,10 +200,13 @@
 
         </div>
 
+
+        <hr>
         <div>
-
+            
             <h2 style="text-align: center;">QUER SABER QUAL OS NOSSOS OBJETIVOS?</h2>
-
+            
+            
             <div class="container text-center mt-5">
 
                 <div class="row align-items-center ">
@@ -229,13 +238,41 @@
             </div>
 
         </div>
-
-
-
-
-
-
+        
+        
+        
+        
+        
     </div>
+    <footer class="footer">
+        <div class="footer-main">
+
+            <div class="brand">
+                <div class="logo-icon">MB</div>
+                <span class="brand-name">MegaByte</span>
+            </div>
+
+            <nav class="footer-links">
+                <a href="#">Início</a>
+                <a href="#">Catálogo</a>
+                <a href="#">Promoções</a>
+                <a href="#">Sobre nós</a>
+                <a href="#">Contato</a>
+            </nav>
+
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 <span>MegaByte</span>. Todos os direitos reservados.
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
