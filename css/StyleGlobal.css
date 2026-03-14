@@ -1,12 +1,12 @@
-*{
+* {
     max-width: 100%;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-hr{
+hr {
     border: none;
     height: 1px;
     background-color: white;
@@ -43,12 +43,40 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-1%, -50%);
-    height: 50rem;
+    height: 53rem;
     width: 40rem;
     background-color: white;
 
 
 }
+
+
+.inputsError {
+    border: 2px solid red;
+    outline: none;
+
+    background-image: url(../images/home/remove.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 1.2rem;
+}
+
+.inputsSuccess {
+    border: 2px solid green;
+    outline: none;
+
+    background-image: url(../images/home/check.png);
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 1.2rem ;
+}
+
+#Logout {
+    display: none;
+}
+
+
 
 .inputs-Infos {
 
@@ -89,7 +117,7 @@ button:hover {
 }
 
 .Catalog {
-   
+
     margin: 3rem;
     gap: 4rem;
 }
@@ -100,7 +128,7 @@ button:hover {
     padding: 0.5rem;
 }
 
-.Name-items{
+.Name-items {
     text-align: center;
     width: 100%;
 }
@@ -196,8 +224,8 @@ button:hover {
     }
 
     a:hover {
-       background: #FFD600;
-       transform: translateY(-0.3rem);
+        background: #FFD600;
+        transform: translateY(-0.3rem);
     }
 
 }
@@ -222,17 +250,17 @@ button:hover {
 
 @media (max-width: 640px) {
 
-   hr{
-    background-color: black;
-    border: solid 0.1rem ;
-   }
+    hr {
+        background-color: black;
+        border: solid 0.1rem;
+    }
 
-   .Catalog{
-    margin: 1rem;
-    gap: 1.5rem;
-   }
+    .Catalog {
+        margin: 1rem;
+        gap: 1.5rem;
+    }
 
-    .Itens{
+    .Itens {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -241,13 +269,13 @@ button:hover {
 
     }
 
-    h6{
+    h6 {
         text-align: center;
         font-size: 0.65rem;
     }
-    
-   
-    .Cad-Login{
+
+
+    .Cad-Login {
         display: flex;
         flex-direction: column;
     }
@@ -259,7 +287,7 @@ button:hover {
         /* o object-fit: define uma altura fisica para a imagem e recorta para caber na altura sem distorcer; */
     }
 
-    .Infos{
+    .Infos {
         position: relative;
         top: auto;
         left: auto;
@@ -269,7 +297,7 @@ button:hover {
         padding: 1.5rem 1rem;
     }
 
-    
+
 
     .footer-main {
         margin: 0;
@@ -284,7 +312,7 @@ button:hover {
         gap: 14px;
         flex-direction: column;
         display: grid;
-      
+
     }
 
     /* flex-direction: column ele em vez de ficar tudo numa linha horizontal, os itens empilham um em cima do outro, e o aling-items: flex-start alinha tudo para a esquerda(em vez de centralizado), e o padding reduz um pouco  espaco interno */
